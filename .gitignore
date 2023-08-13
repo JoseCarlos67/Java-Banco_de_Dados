@@ -1,29 +1,80 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Compiled class files
+*.class
 
-### Eclipse ###
-.apt_generated
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# IntelliJ IDEA files
+.idea/
+
+# Eclipse files
 .classpath
-.factorypath
 .project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+.settings/
+.metadata/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# NetBeans files
+nbproject/
+nb-configuration.xml
 
-### VS Code ###
+# Visual Studio Code files
 .vscode/
 
-### Mac OS ###
-.DS_Store
+# Maven-specific files
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Gradle-specific files
+.gradle/
+build/
+
+# SonarQube files
+.sonarqube/
+
+# Spring Boot files
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Caches
+*.log
+*.iml
+.idea/
+.gradle/
+build/
+out/
+
+# Local configuration file (e.g., application.properties)
+src/main/resources/application.properties
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+db.properties
